@@ -28,7 +28,13 @@ This assignment is designed to get you to _a_) practice advanced HTML, _b_) auth
 npm i -D stylelint postcss stylelint-config-sass-guidelines
 ```
 
-**Note**: Ignore any errors in VS Code akin to _“The value of the href attribute ... must be relative.”_
+**Note¹**: Ignore any errors in VS Code akin to _“The value of the href attribute ... must be relative.”_
+
+**Note²**: If you encounter an `npm ERR!` error and you’re using macOS, precede the `npm` command with `sudo`:
+
+```bash
+sudo npm i -D stylelint postcss stylelint-config-sass-guidelines
+```
 
 ---
 
