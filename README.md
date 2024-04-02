@@ -82,7 +82,7 @@ The comp in `comps/focus.jpg` uses three typefaces: Pacifico, Raleway, and Helve
 
 ## ❖・Due・❖
 
-Wednesday, 3 April 2024, by 3:30 PM.
+Wednesday, 10 April 2024, by 5:00 PM.
 
 ---
 
