@@ -1,0 +1,322 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'reset' as *;
+
+.banner-content {
+  @include grid-layout;
+}
+.bottom-section , .phone-section {
+  @include grid-layout;
+}
+
+.very-bottom {
+  @include grid-layout;
+  background-color: #e5e5e5;
+  z-index: 1;
+}
+
+.third-section {
+  @include grid-layout;
+  background-color: #e5e5e5;
+}
+
+.fourth-section {
+  @include grid-layout;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.people img {
+  width: 100%;
+  height: 100%;
+}
+
+.phone {
+  grid-column: 7 / 16;
+  grid-row: 9 / 16;
+  z-index: 1;
+  position: relative;
+}
+
+.white-dot1 {
+  grid-column: 9 / 9;
+  grid-row: 11 / 16;
+  z-index: 1;
+}
+
+.white-dot2 {
+  grid-column: 8 / 8;
+  grid-row: 14 / 14;
+  z-index: 1;
+}
+
+.white-dot3 {
+  grid-column: 9 / 9;
+  grid-row: 9 / 13;
+}
+
+.black-dot {
+  grid-column: 10 / 12;
+  grid-row: 13 / 16;
+  z-index: 1;
+}
+
+.angled-line {
+  grid-column: 10 / 12 ;
+  grid-row: 13 / 16;
+  z-index: 1;
+}
+
+.cursor1 {
+  grid-column: 10 / 12;
+  grid-row: 13 / 16;
+  z-index: 1;
+}
+
+.great-failure {
+  grid-column: 4 / 10;
+  grid-row:  12 / 12;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: x-large;
+  z-index: 1;
+}
+
+.other-failure {
+  grid-column:  12 / 14 ;
+  grid-row:  12 / 12;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: x-large;
+  z-index: 1;
+}
+
+.anothergreat-failure {
+  grid-column: 4 / 10;
+  grid-row: 14 / 14;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: x-large;
+  z-index: 1;
+}
+
+.anothernothergreat-failure {
+  grid-column: 12 / 16;
+  grid-row: 14 / 14;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: x-large;
+  z-index: 1;
+}
+
+.mini-text1 {
+  grid-column: 12 / 15;
+  grid-row:  13 / 13;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+.mini-text2 {
+  grid-column: 4 / 7 ;
+  grid-row: 15 / 15;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+.mini-text3 {
+  grid-column: 12 / 15;
+  grid-row: 15 / 15;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+.mini-text4 {
+  grid-column: 4 / 7;
+  grid-row:  13 / 13;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+.mini-qoute {
+  grid-column: 4 / 16;
+  grid-row: 4 / 8;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: xx-large;
+}
+
+.kyle-turner {
+  grid-column: 8 / 12;
+  grid-row: 7 / 10;
+  font-family: Raleway;
+  font-weight: 600;
+}
+
+.blogger {
+  grid-column: 9 / 12;
+  grid-row: 7 / 10;
+  font-family: Raleway;
+  font-weight: 300;
+}
+
+.second-section img {
+  grid-column: 7 / 12;
+  grid-row: 6 / 8;
+}
+
+.vid {
+  grid-column: 11 / 16;
+  grid-row: 3 / 12;
+}
+
+.play-button {
+  grid-column: 11 / 12;
+  grid-row:  8 / 16;
+}
+
+.play-bar {
+  grid-column: 12 / 16;
+  grid-row:  8 / 16;
+}
+
+.thirdsection-tag {
+  grid-column: 3 / 10;
+  grid-row:  3 / 12;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.belowthirdsection-tag {
+  grid-column: 3 / 8;
+  grid-row:  4 / 6 ;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+.logo-icons {
+  grid-column: 8 / 16;
+  grid-row : 6 / 10;
+}
+
+.cursor3 {
+  grid-column: 9 / 16;
+  grid-row : 6 / 6;
+}
+
+.apple-logo {
+  grid-column: 3 / 9;
+  grid-row:  6 / 6;
+}
+
+.android-logo {
+  grid-column: 4 / 8;
+  grid-row:  6 / 6;
+}
+
+.windows-logo {
+  grid-column: 5 / 8;
+  grid-row:  6 / 6;
+}
+
+.cursor2 {
+  grid-column: 5 / 6;
+  grid-row:  6 / 8;
+}
+
+.banner-tag {
+  grid-column: 5 / 15;
+  grid-row: 14 / 16;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: xxx-large;
+  z-index: 1;
+}
+
+.focus-tagline {
+  grid-column: 9 / 11;
+  grid-row : 9 / 10;
+  font-family: Pacifico;
+  font-weight: 400;
+  font-size: xxx-large;
+  z-index: 1;
+}
+
+.logo {
+  grid-column: 8 / 10;
+  grid-row : 8 / 10;
+  z-index: 1;
+}
+
+.down-arrow {
+  grid-column: 9 / 9;
+  grid-row: 19 / 18;
+  z-index: 1;
+}
+
+.bottom-tagline {
+  grid-column: 8 / 12;
+  grid-row : 2 / 8;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.below-bottom {
+  grid-column: 7 / 16;
+  grid-row : 4 / 8;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+.contact {
+  grid-column: 6 / 12;
+  grid-row : 4 / 6;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: large;;
+}
+
+.download {
+  grid-column: 7 / 12;
+  grid-row : 4 / 8;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: large;
+}
+
+.press {
+  grid-column: 8 / 12;
+  grid-row : 4 / 8;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: large;
+}
+
+.email {
+  grid-column: 9 / 12;
+  grid-row : 4 / 6;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: large;
+}
+
+.support {
+  grid-column: 10 / 12;
+  grid-row : 4 / 6;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: large;
+}
+
+.priv-policy {
+  grid-column: 11 / 13;
+  grid-row : 4 / 6;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: large;
+}
